@@ -1,0 +1,48 @@
+{
+  "name": "pubsub-router-global",
+  "version": "0.1.0",
+  "description": "The pubsub-router class instance as a singleton.",
+  "dependencies": {
+    "global-cache": "^1.2.1",
+    "pubsub-router": "^0.6.0"
+  },
+  "keywords": [
+    "pubsub",
+    "pub sub",
+    "router",
+    "route",
+    "publish-subscribe",
+    "publish subscribe",
+    "eventbus",
+    "events",
+    "route template",
+    "routable"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "devDependencies": {
+    "@types/route-parser": "^0.1.3"
+  },
+  "ava": {
+    "files": [
+      "./tests/*.js"
+    ]
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hedzer/pubsub-router-global.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hedzer/pubsub-router-global/issues"
+  },
+  "homepage": "https://github.com/Hedzer/pubsub-router-global#readme"
+}
