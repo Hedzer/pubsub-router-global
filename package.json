@@ -1,15 +1,16 @@
 {
   "name": "pubsub-router-global",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "The pubsub-router class instance as a singleton.",
   "dependencies": {
     "global-cache": "^1.2.1",
-    "pubsub-router": "^0.7.0"
+    "pubsub-router": "^0.7.1"
   },
   "devDependencies": {
     "typescript": "^3.6.2",
     "tsc": "^1.20150623.0",
-    "@types/route-parser": "^0.1.3"
+    "@types/route-parser": "^0.1.3",
+    "@types/node": "^12.12.3"
   },
   "keywords": [
     "pubsub",
