@@ -1,10 +1,10 @@
 {
   "name": "pubsub-router-global",
-  "version": "0.2.3",
+  "version": "0.3.1",
   "description": "The pubsub-router class instance as a singleton.",
   "dependencies": {
-    "global-cache": "^1.2.1",
-    "pubsub-router": "^0.7.3"
+    "pubsub-router": "^0.8.1",
+    "whenthough": "^0.2.2"
   },
   "devDependencies": {
     "typescript": "^3.6.2",

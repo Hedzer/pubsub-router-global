@@ -1,9 +1,8 @@
 
 import Router from 'pubsub-router';
-import cache from 'global-cache';
+import global from 'whenthough';
 
-const name = 'pubsub-router';
-cache.has(name) ? cache.get(name) : cache.set(name, new Router());
-const instance: Router = cache.get(name);
+const name = Symbol.for('@whenthough/pubsub-router');
+const instance: Router = global.set(name, new Router());
 
 export default instance;
